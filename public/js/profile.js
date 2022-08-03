@@ -2,13 +2,12 @@ const newFormHandler = async (event) => {
   event.preventDefault();
 
   const name = document.querySelector('#comment-name').value.trim();
-  const needed_funding = document.querySelector('#comment-funding').value.trim();
   const description = document.querySelector('#comment-desc').value.trim();
 
-  if (name && needed_funding && description) {
+  if (name && description) {
     const response = await fetch(`/api/comments`, {
       method: 'POST',
-      body: JSON.stringify({ name, needed_funding, description }),
+      body: JSON.stringify({ name, description }),
       headers: {
         'Content-Type': 'application/json',
       },

@@ -12,7 +12,7 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 ## Related Links
 * The Github Repository link: [My Github](https://github.com/hengyu89/UCSD_HW14_Tech-Blog)
 
-* The program showed as Heroku: [Demo by Youtube](https://hw-tech-blog14.herokuapp.com/)
+* The program showed as Heroku: [Demo by Heroku](https://hw-tech-blog14.herokuapp.com/)
 
 ## Usage
 
